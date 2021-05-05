@@ -9,13 +9,13 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: white;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
-
+/* desktop nav menu*/
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto); /* 4 track columns*/
@@ -40,11 +40,12 @@
 
 .nav-links:hover {
   color: grey;
-  transition: all 0.2s ease-out;
+  transition: all 0.5s ease-out;
 }
 /* burger */
 .fa-bars {
-  color: #fff;
+  transition: all 0.5s ease;
+  color: white;
 }
 /***** hidding burger on desktop ******/
 .menu-icon {
@@ -54,15 +55,18 @@
 /***** media query for mobile ******/
 /**** before 960px ****/
 @media screen and (max-width: 960px) {
+  /* mobile slider */
   .nav-menu {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 90vh;
     position: absolute;
     top: 80px;
     left: -100%; /* hidden sidebar */
     opacity: 1;
-    transition: all 0.5s ease;
   }
 
   /* open and close side bar*/
@@ -74,12 +78,6 @@
     z-index: 1;
   }
 
-  .nav-links {
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
-  }
   /* flex wrapper for logo & burgar */
   .mobile-wrapper {
     width: 100%;
@@ -97,6 +95,7 @@
   }
 
   .fa-times {
+    transition: all 0.5s ease;
     color: #fff;
     font-size: 2rem;
   }
