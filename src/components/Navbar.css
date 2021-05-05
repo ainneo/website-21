@@ -1,0 +1,111 @@
+/* desktop first */
+.navbar {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 80px;
+  display: flex; /* default is row */
+  justify-content: center; /* main axis (horzontal) */
+  align-items: center; /* cross axis (vertical) */
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto); /* 4 track columns*/
+  grid-gap: 10px; /* gap between tracks */
+  width: 60vw; /* menu width */
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  color: grey;
+  transition: all 0.2s ease-out;
+}
+/* burger */
+.fa-bars {
+  color: #fff;
+}
+/***** hidding burger on desktop ******/
+.menu-icon {
+  display: none;
+}
+
+/***** media query for mobile ******/
+/**** before 960px ****/
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: block;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%; /* hidden sidebar */
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  /* open and close side bar*/
+  .nav-menu.active {
+    background: #242222;
+    left: 0; /*open sidebar*/
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  /* flex wrapper for logo & burgar */
+  .mobile-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  /***** shows burgar & x ******/
+  .menu-icon {
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+  /***** shows slider ******/
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}
