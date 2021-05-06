@@ -1,6 +1,9 @@
-## How to create a smooth scroll nav with links and a resonsive sidebar.
+## How to create a scrolling 1 pager - with a responsive nav and a responsive sidebar, linking to sections of a page
 
 Install the packages below:
+
+- Icons: for burgar and x buttons
+- react-scroll for scrolling pagges/linking to sections of a page
 
 ```
 npm install react-icons --save

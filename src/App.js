@@ -1,15 +1,13 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 // import Sidebar from "./components/pages/Sidebar"; //for testing
-import Home from "./components/pages/pages";
+import Home from "./pages";
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Home />
-      </Switch>
+      <Home />
     </Router>
   );
 }

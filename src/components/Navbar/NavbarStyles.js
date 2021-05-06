@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 10;
 

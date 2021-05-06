@@ -19,8 +19,8 @@ const Navbar = ({ toggle }) => {
             <FaBars />
           </MobileIcon>
           <NavMenu>
-            <NavLinks to="about">Projects</NavLinks>
-            <NavLinks to="about">Contact</NavLinks>
+            <NavLinks to="projects">Projects</NavLinks>
+            <NavLinks to="contact">Contact</NavLinks>
             <NavLinks to="about">About</NavLinks>
           </NavMenu>
         </NavbarContainer>
