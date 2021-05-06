@@ -14,8 +14,8 @@ npm i react-scroll
 
 Main Nav
 
-- layout nav jsx, desktop and mobile nav
-- layout nav styled components
+- layout jsx, desktop and mobile nav
+- layout styled components
 
 Sidebar Nav
 
