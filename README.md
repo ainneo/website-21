@@ -1,9 +1,9 @@
-## How to create a scrolling 1 pager - with a responsive nav and a responsive sidebar, linking to sections of a page
+## Create a Scrolling 1 Pager With a Responsive Nav and Sidebar - Linking to Sections of a Page
 
 Install the packages below:
 
-- Icons: for burgar and x buttons
-- react-scroll for scrolling pagges/linking to sections of a page
+- Icons: burgar buttons
+- react-scroll: scrolling pages/linking to sections of a page
 
 ```
 npm install react-icons --save
@@ -14,16 +14,20 @@ npm i react-scroll
 
 Main Nav
 
-- layout the main nav jsx, desktop nav and mobile nav together...
-- layout the main nav styled components
+- layout nav jsx, desktop and mobile nav
+- layout nav styled components
 
 Sidebar Nav
 
-- layout the main nav jsx
-- layout the main nav styled components
+- layout jsx
+- layout styled components
 
 Toggle
 
 - create toggle function & state on Home component (index.js in Pages)
 - pass function and state to Sidebar component (index.js in Sidebar)
 - pass function to Navbar component (index.js in Navbar)
+
+## Technologies:
+- React.js (JS, HTML, CSS)
+- Styled Components (JS, CSS)
