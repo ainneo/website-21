@@ -1,16 +1,24 @@
-import React from "react";
-import NavbarElem from "../Navbar/NavbarElem";
-import Projects from "./Projects";
-import About from "./About";
-import Contact from "./Contact";
+import { useState } from "react";
+import Navbar from "../Navbar";
+// import Projects from "./Projects";
+// import About from "./About";
+// import Contact from "./Contact";
+import Sidebar from "../Sidebar";
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <NavbarElem />
-      <About />
+      <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      {/* <About />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }

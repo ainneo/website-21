@@ -9,16 +9,18 @@ import {
   NavLinks,
 } from "./NavbarStyles";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">Ainne Oum</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
+            <NavLinks to="about">Projects</NavLinks>
+            <NavLinks to="about">Contact</NavLinks>
             <NavLinks to="about">About</NavLinks>
           </NavMenu>
         </NavbarContainer>
@@ -28,6 +30,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-//layout the jsx
-//layout the css
