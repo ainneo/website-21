@@ -1,0 +1,41 @@
+import styled from "styled-components";
+
+export const ProjectsContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+`;
+
+export const ProjectsWrapper = styled.div`
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 24px;
+  }
+`;
+
+export const ProjectsSection = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ProjectsH2 = styled.h2`
+  text-align: center;
+  line-height: 50px;
+  font-size: 3rem;
+  line-height: 1;
+
+  @media screen and (max-width: 786px) {
+    font-size: 2rem;
+  }
+`;
+
+export const ProjectsP = styled.p`
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 1rem;
+  color: #d4d4d4;
+`;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll"; /* this is what makes the page scroll */
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
@@ -34,7 +34,7 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo onClick={toggleHome} to="/">
-            Ainne Oum
+            AO
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />

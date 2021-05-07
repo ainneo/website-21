@@ -4,7 +4,6 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: #000;
   width: 100%;
   height: 80px;
   /* margin-top: -80px; */
@@ -15,6 +14,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  background: #171717;
 
   //mq will excute these styles at this break point
   @media screen and (max-width: 960px) {
@@ -28,7 +28,7 @@ export const NavbarContainer = styled.div`
   align-items: center;
   height: 80px;
   width: 100%; /* 100% of the max-width 1100px*/
-  max-width: 1100px;
+  max-width: 1000px;
   padding: 0 20px;
 `;
 
@@ -38,6 +38,11 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
+
+  &:hover {
+    color: grey;
+    transition: 0.2s ease-in-out;
+  }
 `;
 
 export const MobileIcon = styled.div`
@@ -48,7 +53,7 @@ export const MobileIcon = styled.div`
     display: block;
     cursor: pointer;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 10px;
   }
 `;
@@ -67,6 +72,9 @@ export const NavMenu = styled.ul`
 
 export const NavMenuItem = styled.li`
   height: 80px;
+  /* &.active {
+    border-bottom: 3px solid #01bf71;
+  } */
 `;
 
 export const NavLinks = styled(LinkS)`
@@ -78,7 +86,8 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
 
-  &.active {
-    border-bottom: 3px solid #01bf71;
+  &:hover {
+    color: grey;
+    transition: 0.2s ease-in-out;
   }
 `;
