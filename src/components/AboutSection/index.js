@@ -10,7 +10,7 @@ import {
 export default function About() {
   return (
     <>
-      <AboutContainer>
+      <AboutContainer id="about">
         <AboutWrapper>
           <AboutP>Hi, my name is</AboutP>
           <AboutH1>Ainne Oum</AboutH1>

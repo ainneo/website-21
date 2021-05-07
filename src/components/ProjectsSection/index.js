@@ -12,8 +12,8 @@ import {
 export default function Projects() {
   return (
     <>
-      <ProjectsContainer>
-        <ProjectsWrapper id="projects">
+      <ProjectsContainer id="projects">
+        <ProjectsWrapper>
           <ProjectsH2>Projects</ProjectsH2>
           <ProjectsP>Filter there projects here</ProjectsP>
           <ProjectsSection>

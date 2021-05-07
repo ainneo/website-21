@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
+  padding: 100px 0px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 100px;
 `;
 
 export const ProjectsWrapper = styled.div`
@@ -15,6 +15,7 @@ export const ProjectsWrapper = styled.div`
   }
 `;
 
+// this wrapper makes cards wrap, and centers evenly in the page
 export const ProjectsSection = styled.div`
   display: flex;
   flex-wrap: wrap;
