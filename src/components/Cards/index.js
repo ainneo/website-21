@@ -13,25 +13,25 @@ import {
   CardLiveButton,
   CardTechIcons,
   CardIcon,
+  CardImage,
 } from "../Cards/CardsStyles";
+import Projects from "../ProjectsSection";
 
-export default function Cards() {
+export default function Cards({ project }) {
   return (
     <>
       <CardContainer>
         <CardWrapper id="projects">
-          <CardH3>test</CardH3>
+          <CardH3>{project.title}</CardH3>
           <CardImg>
-            {/* <a href={props.url}><img src={props.image} alt="MIA" /></a> */}
+            <CardImage src={project.image} alt="MIA" />
           </CardImg>
           <CardContent>
-            <CardP>
-              Built news feed, accessing multiple News APIs with Axios
-            </CardP>
+            <CardP>{project.description}</CardP>
 
             <CardFooterWrapper>
               <CardCodeButton>
-                <a href="https://github.com/sitek94/timestamp-microservice">
+                <a href={project.codeURL}>
                   Source code
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -51,14 +51,33 @@ export default function Cards() {
               </CardCodeButton>
               <CardFooter>
                 <CardLiveButton>
-                  <a href="https://simple-timestamp-microservice.herokuapp.com/">
-                    Project live
-                  </a>
+                  <a href={project.liveURL}>Project live</a>
                 </CardLiveButton>
                 <CardTechIcons>
-                  <CardIcon>ico</CardIcon>
-                  <CardIcon>ico</CardIcon>
-                  <CardIcon>ico</CardIcon>
+                  <CardIcon>
+                    <img
+                      width="30px"
+                      height="30px"
+                      src={project.icon1}
+                      alt="icon"
+                    ></img>
+                  </CardIcon>
+                  <CardIcon>
+                    <img
+                      width="30px"
+                      height="30px"
+                      src={project.icon2}
+                      alt="icon"
+                    ></img>
+                  </CardIcon>
+                  <CardIcon>
+                    <img
+                      width="30px"
+                      height="30px"
+                      src={project.icon3}
+                      alt="icon"
+                    ></img>
+                  </CardIcon>
                 </CardTechIcons>
               </CardFooter>
             </CardFooterWrapper>

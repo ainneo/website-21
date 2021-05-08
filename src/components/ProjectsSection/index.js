@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "../Cards";
+import projects from "../data/projects.json";
 
 import {
   ProjectsContainer,
@@ -17,12 +18,10 @@ export default function Projects() {
           <ProjectsH2>Projects</ProjectsH2>
           <ProjectsP>Filter there projects here</ProjectsP>
           <ProjectsSection>
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
+            {projects.map((project, index) => {
+              console.log(projects);
+              return <Cards project={project} key={index} />;
+            })}
           </ProjectsSection>
         </ProjectsWrapper>
       </ProjectsContainer>

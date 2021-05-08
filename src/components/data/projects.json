@@ -1,0 +1,53 @@
+[
+    {
+        "title" : "Filter Practice",
+        "image" : "images/filterPractice.png",
+        "description" : "I created this project to practice filtering through products using hooks. This project only filters through products - the images do not lead to another page.",
+        "codeURL" : "https://github.com/ainneo/hooks-filter",
+        "liveURL" : "https://hooks-filter.netlify.app/",
+        "icon1": "icons/react.svg",
+        "icon2": "icons/js.svg",
+        "icon3": "icons/css.svg"
+    },
+
+    {
+        "title" : "Bitcoin News Feed",
+        "image" : "images/bitcoinFeed.png",
+        "description" : "Built bitcoin news feed, accessing News API with Axios, built out resusable components in React.js, and made responsive with CSS Flexbox.",
+        "codeURL" : "",
+        "liveURL" : "https://bitcoin-news.netlify.app/",
+        "icon1": "icons/react.svg",
+        "icon2": "icons/js.svg",
+        "icon3": "icons/css.svg"
+    },
+    {
+        "title" : "Space Net Website",
+        "image" : "images/spaceNet.png",
+        "description" : "Built with React.js, Bootstrap4, HTML, CSS, and JavaScript. I made this site as practice in developing a React.js website.",
+        "codeURL" : "https://github.com/ainneo/space-net",
+        "liveURL" : "https://space-net.netlify.app/",
+        "icon1": "icons/react.svg",
+        "icon2": "icons/bootstrap.svg",
+        "icon3": "icons/js.svg"
+    },
+    {
+        "title" : "Static Website",
+        "image" : "images/oldsite.png",
+        "description" : "Built from scratch with HTML, CSS, and JavaScript, no frameworks used.",
+        "codeURL" : "https://github.com/ainneo/cyberao",
+        "liveURL" : "https://ainneo.github.io/cyberao/",
+        "icon1": "icons/js.svg",
+        "icon2": "icons/css.svg",
+        "icon3": "icons/html.svg"
+    },
+    {
+        "title" : "Pixel Perfect for ClickUp",
+        "image" : "images/clickUp.png",
+        "description" : "Mini pixel perfect project built for ClickUp, using BEM, SASS, and Glup.",
+        "codeURL" : "https://github.com/ainneo/clickUp",
+        "liveURL" : "https://ainneo.github.io/clickUp/",
+        "icon1": "icons/sass.svg",
+        "icon2": "icons/js.svg",
+        "icon3": "icons/html.svg"
+    }
+]

@@ -8,22 +8,25 @@ export const CardContainer = styled.div`
 `;
 
 export const CardWrapper = styled.div`
-padding: 20px;
-border: solid 1px purple;
-height: 400px;
-width: 290px;
-  }
+  padding: 20px;
+  border: solid 1px purple;
+  height: 400px;
+  width: 290px;
 `;
 
 export const CardImg = styled.div`
-  margin: 8px 0px;
-  background: blue;
-  width: 100%;
   height: 40%;
+  width: 100%;
+  background: blue;
+  transition: opacity 500ms ease 0s;
+  margin: 10px 0px;
+`;
+
+export const CardImage = styled.img`
+  width: 100%;
+  height: 150px;
   object-fit: cover;
   object-position: center center;
-  opacity: 1;
-  transition: opacity 500ms ease 0s;
 `;
 
 export const CardContent = styled.div`
@@ -47,16 +50,19 @@ export const CardP = styled.p`
 `;
 
 export const CardCodeButton = styled.div``;
+
 export const CardFooter = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
+
 export const CardLiveButton = styled.div``;
 
 export const CardTechIcons = styled.div`
   display: grid;
   grid-auto-flow: column;
-  grid-gap: 2px;
+  grid-gap: 5px;
 `;
+
 export const CardIcon = styled.div``;

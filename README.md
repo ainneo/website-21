@@ -1,8 +1,17 @@
-## Create a Scrolling 1 Pager With a Responsive Nav and Sidebar - Linking to Sections of a Page
+## About this Project
+
+This is my personal website built with react.js and styled components.
+
+## Technologies:
+
+- React.js (JS, HTML, CSS)
+- Styled Components (JS, CSS)
+
+### Create a Scrolling 1 Pager With a Responsive Nav and Sidebar - Linking to Sections of a Page
 
 Install the packages below:
 
-- Icons: burgar buttons
+- Icons: burger buttons
 - react-scroll: scrolling pages/linking to sections of a page
 
 ```
@@ -27,7 +36,3 @@ Toggle
 - create toggle function & state on Home component (index.js in Pages)
 - pass function and state to Sidebar component (index.js in Sidebar)
 - pass function to Navbar component (index.js in Navbar)
-
-## Technologies:
-- React.js (JS, HTML, CSS)
-- Styled Components (JS, CSS)
