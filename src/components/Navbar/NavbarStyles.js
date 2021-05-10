@@ -38,6 +38,29 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.5rem;
   color: #fff;
   text-decoration: none;
+  /* animation: shake 0.8s; */
+  animation: 9s shake infinite alternate;
+  /* shakin */
+  @keyframes shake {
+    0% {
+      transform: skewX(-15deg);
+    }
+    5% {
+      transform: skewX(15deg);
+    }
+    1% {
+      transform: skewX(-15deg);
+    }
+    15% {
+      transform: skewX(15deg);
+    }
+    20% {
+      transform: skewX(0deg);
+    }
+    100% {
+      transform: skewX(0deg);
+    }
+  }
 
   &:hover {
     color: grey;
