@@ -3,7 +3,6 @@ import {
   AboutContainer,
   AboutWrapper,
   AboutH1,
-  AboutH2,
   AboutP,
 } from "../AboutSection/AboutStyles";
 

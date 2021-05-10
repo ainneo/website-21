@@ -15,7 +15,6 @@ import {
   CardIcon,
   CardImage,
 } from "../Cards/CardsStyles";
-import Projects from "../ProjectsSection";
 
 export default function Cards({ project }) {
   return (

@@ -17,6 +17,7 @@ export const ProjectsWrapper = styled.div`
 
 // this wrapper makes cards wrap, and centers evenly in the page
 export const ProjectsSection = styled.div`
+  padding: 50px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

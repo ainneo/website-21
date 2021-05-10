@@ -19,7 +19,7 @@ export default function Projects() {
           <ProjectsP>Filter there projects here</ProjectsP>
           <ProjectsSection>
             {projects.map((project, index) => {
-              console.log(projects);
+              // console.log(projects);
               return <Cards project={project} key={index} />;
             })}
           </ProjectsSection>
