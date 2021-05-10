@@ -19,7 +19,7 @@ npm install react-icons --save
 npm i react-scroll
 ```
 
-### Process 3 Steps:
+#### Process 3 Steps:
 
 Main Nav
 

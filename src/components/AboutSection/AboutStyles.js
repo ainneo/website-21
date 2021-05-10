@@ -11,7 +11,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
   width: 100%;
   max-width: 1000px;
-  padding: 0 24px;
+  padding: 0px 24px;
   }
 `;
 

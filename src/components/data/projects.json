@@ -31,7 +31,7 @@
         "icon3": "icons/js.svg"
     },
     {
-        "title" : "Static Website",
+        "title" : "Personal Website V2",
         "image" : "images/oldsite.png",
         "description" : "Built from scratch with HTML, CSS, and JavaScript, no frameworks used.",
         "codeURL" : "https://github.com/ainneo/cyberao",

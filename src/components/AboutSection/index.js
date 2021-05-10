@@ -15,10 +15,14 @@ export default function About() {
           <AboutH1>Ainne Oum</AboutH1>
           <AboutH1>I build things for the web.</AboutH1>
           <AboutP>
-            Hi, I'm Ainne, I am a San Francisco based frontend engineer with a
-            background in design. I love working with CSS, JavaScript, and
-            responsive design. I’m passionate about mentoring others and I
-            currently organize and lead my local chapter of Women Who Code.
+            I am a San Francisco based frontend engineer with a background in
+            design. I love working with CSS, JavaScript, and responsive design.
+            My interest in web development started back in 2019 when I was
+            building my own website - turns out hacking together a WordPress
+            site taught me a lot about HTML & CSS! Today, I've had the privilege
+            of working for Major League Hacking (MLH), contributing to numerous
+            open source projects, and organizing and leading my local chapter of
+            Women Who Code.
           </AboutP>
         </AboutWrapper>
       </AboutContainer>
