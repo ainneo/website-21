@@ -9,7 +9,8 @@ export const CardContainer = styled.div`
 
 export const CardWrapper = styled.div`
   padding: 20px;
-  border: solid 1px purple;
+  border-radius: 10px;
+  border: solid 1px grey;
   height: 400px;
   width: 290px;
 `;

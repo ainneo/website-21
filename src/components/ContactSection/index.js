@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./ContactStyles.css";
 
 function Contact() {
   const [serverState, setServerState] = useState({
@@ -39,24 +40,55 @@ function Contact() {
   };
 
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <form onSubmit={handleOnSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input id="name" type="text" name="name" required />
-        <label htmlFor="email">Email:</label>
-        <input id="email" type="email" name="email" required />
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <button type="submit" disabled={serverState.submitting}>
-          Submit
-        </button>
-        {serverState.status && (
-          <p className={!serverState.status.ok ? "errorMsg" : ""}>
-            {serverState.status.msg}
-          </p>
-        )}
-      </form>
+    <div id="contact" className="form-container">
+      <div className="form-wrapper">
+        <h2>Say Hello!</h2>
+        <div className="form-social-wrapper">
+          <form className="form" onSubmit={handleOnSubmit}>
+            <label htmlFor="name">Name:</label>
+            <input id="name" type="text" name="name" required />
+            <label htmlFor="email">Email:</label>
+            <input id="email" type="email" name="email" required />
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit" disabled={serverState.submitting}>
+              Submit
+            </button>
+            {serverState.status && (
+              <p className={!serverState.status.ok ? "errorMsg" : ""}>
+                {serverState.status.msg}
+              </p>
+            )}
+          </form>
+          <div className="social-footer">
+            <div className="social-footer-icons">
+              <div className="social-icons git">
+                <a href="https://github.com/ainneo">
+                  <img
+                    width="40px"
+                    height="40px"
+                    src="./icons/github.svg"
+                    alt="icon"
+                  />
+                </a>
+              </div>
+              <div className="social-icons link">
+                <a href="https://www.linkedin.com/in/ainneoum/">
+                  <img
+                    width="40px"
+                    height="40px"
+                    src="./icons/linkedin.svg"
+                    alt="icon"
+                  />
+                </a>
+              </div>
+              <div className="social-icons-text">
+                <p>designed by AO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

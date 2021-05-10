@@ -27,11 +27,11 @@ export const ProjectsSection = styled.div`
 export const ProjectsH2 = styled.h2`
   text-align: center;
   line-height: 50px;
-  font-size: 3rem;
+  font-size: 1.8rem;
   line-height: 1;
 
   @media screen and (max-width: 786px) {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 `;
 
