@@ -5,6 +5,8 @@
   font-family: "Helvetica", sans-serif;
   color: #fff;
   line-height: 30px;
-  background: #171717;
   /* font-family: 'Open Sans', sans-serif*/
+}
+body {
+  background: #171717;
 }
