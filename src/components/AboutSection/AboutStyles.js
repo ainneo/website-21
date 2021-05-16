@@ -56,7 +56,7 @@ export const AboutH1 = styled.h1`
 
 export const AboutP = styled.p`
  padding: 20px 0px;
- font-size: 1.3rem;
+ font-size: 1rem;
  line-height: 1.5;
   }
 `;

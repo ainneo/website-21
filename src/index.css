@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "NeueHaasGroteskText-Bold";
+  src: local("NeueHaasGroteskText-Bold"),
+    url("./fonts/NeueHaasGroteskText-Bold.woff") format("truetype");
+}

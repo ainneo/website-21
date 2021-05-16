@@ -50,7 +50,7 @@ export const CardH3 = styled.h3`
 
 export const CardP = styled.p`
   font-size: 15px;
-  color: #d4d4d4;
+  color: rgba(92, 92, 92, 0.9);
   line-height: 15px;
 `;
 
