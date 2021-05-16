@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Projects from "../components/ProjectsSection";
-// import Hero from "../components/HeroSection";
 import About from "../components/AboutSection";
 import Contact from "../components/ContactSection";
 import Sidebar from "../components/Sidebar";
@@ -17,7 +16,6 @@ export default function Home() {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      {/* <Hero /> */}
       <About />
       <Projects />
       <Contact />

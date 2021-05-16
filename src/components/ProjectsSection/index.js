@@ -16,7 +16,7 @@ export default function Projects() {
       <ProjectsContainer id="projects">
         <ProjectsWrapper>
           <ProjectsH2>Projects</ProjectsH2>
-          <ProjectsP>Filter there projects here</ProjectsP>
+          <ProjectsP>...</ProjectsP>
           <ProjectsSection>
             {projects.map((project, index) => {
               // console.log(projects);
