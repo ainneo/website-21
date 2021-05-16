@@ -11,7 +11,7 @@ let params = {
       },
     },
     color: {
-      value: ["fefefe"],
+      value: ["555555"],
     },
     shape: {
       type: "circle",
