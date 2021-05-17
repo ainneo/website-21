@@ -7,25 +7,25 @@ let params = {
       value: 40,
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 400,
       },
     },
     color: {
-      value: ["fefefe"],
+      value: ["#c311e7"],
     },
     shape: {
-      type: "circle",
+      type: "",
       stroke: {
         width: 0,
         color: "#000000",
       },
       polygon: {
-        nb_sides: 5,
+        nb_sides: 20,
       },
       image: {
         src: "img/github.svg",
-        width: 10,
-        height: 10,
+        width: 100,
+        height: 100,
       },
     },
     opacity: {
@@ -33,31 +33,31 @@ let params = {
       random: false,
       anim: {
         enable: false,
-        speed: 1,
+        speed: 3,
         opacity_min: 0.5,
         sync: false,
       },
     },
     size: {
-      value: 3,
+      value: 100,
       random: true,
       anim: {
         enable: false,
-        speed: 30,
+        speed: 20,
         size_min: 0.1,
         sync: false,
       },
     },
     line_linked: {
       enable: true,
-      distance: 150,
+      distance: 100,
       color: "#ffffff",
       opacity: 0.4,
       width: 1,
     },
     move: {
       enable: true,
-      speed: 3,
+      speed: 1,
       direction: "none",
       random: false,
       straight: false,
@@ -66,7 +66,7 @@ let params = {
       attract: {
         enable: false,
         rotateX: 600,
-        rotateY: 1200,
+        rotateY: 600,
       },
     },
   },
@@ -85,20 +85,20 @@ let params = {
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 1000,
         line_linked: {
           opacity: 1,
         },
       },
       bubble: {
-        distance: 100,
-        size: 40,
+        distance: 900,
+        size: 800,
         duration: 2,
         opacity: 8,
         speed: 3,
       },
       repulse: {
-        distance: 150,
+        distance: 200,
         duration: 1,
       },
       push: {

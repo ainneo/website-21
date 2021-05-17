@@ -1,38 +1,39 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-  margin: 10px;
-  &:hover {
-    transform: scale(1.3);
-  }
+  display: block;
+  margin: 10px 0px;
 `;
 
 export const CardWrapper = styled.div`
-  padding: 20px;
-  border-radius: 10px;
-  border: solid 1px grey;
-  height: 400px;
-  width: 290px;
+  width: 320px;
+  &:hover * {
+    background-color: #fff;
+    color: black;
+  }
+  @media screen and (min-width: 500px) {
+    width: 380px;
+  }
 `;
 
 export const CardImg = styled.div`
-  height: 40%;
+  padding: 5px 5px 0px;
+  height: 60%;
   width: 100%;
-  background: blue;
   transition: opacity 500ms ease 0s;
-  margin: 10px 0px;
 `;
 
 export const CardImage = styled.img`
   width: 100%;
-  height: 150px;
+  height: 240px;
   object-fit: cover;
   object-position: center center;
 `;
 
 export const CardContent = styled.div`
+  padding: 5px;
   width: 100%;
-  height: 170px;
+  height: 125px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,12 +46,18 @@ export const CardH3 = styled.h3`
 `;
 
 export const CardP = styled.p`
-  font-size: 14px;
-  color: #d4d4d4;
-  line-height: 20px;
+  font-size: 15px;
+  color: rgba(92, 92, 92, 0.9);
+  line-height: 15px;
 `;
 
-export const CardCodeButton = styled.div``;
+export const CardCodeButton = styled.div`
+  > * {
+    font-size: 16px;
+    color: rgba(92, 92, 92, 0.9);
+  }
+  margin-bottom: -10px;
+`;
 
 export const CardFooter = styled.div`
   display: flex;
@@ -58,7 +65,12 @@ export const CardFooter = styled.div`
   align-items: center;
 `;
 
-export const CardLiveButton = styled.div``;
+export const CardLiveButton = styled.div`
+  > * {
+    font-size: 16px;
+    color: rgba(92, 92, 92, 0.9);
+  }
+`;
 
 export const CardTechIcons = styled.div`
   display: grid;

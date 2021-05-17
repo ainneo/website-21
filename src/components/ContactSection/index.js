@@ -61,19 +61,23 @@ function Contact() {
           left: "0",
         }}
       >
-        <div id="contact" className="form-container">
+        <div id="contact" className="contact-section">
+          {/* <div className="form-square"></div> */}
+          <h2>Say Hello.</h2>
+        </div>
+
+        <div className="form-container">
           <div className="form-wrapper">
-            <h2>Say Hello!</h2>
             <div className="form-social-wrapper">
               <form className="form" onSubmit={handleOnSubmit}>
-                <label htmlFor="name">Name:</label>
+                <label htmlFor="name">Name.</label>
                 <input id="name" type="text" name="name" required />
-                <label htmlFor="email">Email:</label>
+                <label htmlFor="email">Email.</label>
                 <input id="email" type="email" name="email" required />
-                <label htmlFor="message">Message:</label>
+                <label htmlFor="message">Message.</label>
                 <textarea id="message" name="message"></textarea>
                 <button type="submit" disabled={serverState.submitting}>
-                  Submit
+                  Submit.
                 </button>
                 {serverState.status && (
                   <p className={!serverState.status.ok ? "errorMsg" : ""}>
@@ -104,7 +108,7 @@ function Contact() {
                     </a>
                   </div>
                   <div className="social-icons-text">
-                    <p>designed by AO</p>
+                    <p>Coded with &#10084;&#65039; AO </p>
                   </div>
                 </div>
               </div>

@@ -10,14 +10,14 @@ export const ProjectsContainer = styled.div`
 
 export const ProjectsWrapper = styled.div`
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 0 24px;
   }
 `;
 
 // this wrapper makes cards wrap, and centers evenly in the page
 export const ProjectsSection = styled.div`
-  padding: 50px 0;
+  padding: 100px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -25,7 +25,6 @@ export const ProjectsSection = styled.div`
 `;
 
 export const ProjectsH2 = styled.h2`
-  text-align: center;
   line-height: 50px;
   font-size: 1.8rem;
   line-height: 1;
@@ -35,9 +34,13 @@ export const ProjectsH2 = styled.h2`
   }
 `;
 
-export const ProjectsP = styled.p`
-  text-align: center;
-  padding: 20px 0px;
-  font-size: 1rem;
-  color: #d4d4d4;
+// export const ProjectsSqaure = styled.div`
+//   height: 30px;
+//   width: 35px;
+//   background-color: green;
+//   margin-right: 10px;
+// `;
+
+export const ProjectsTitle = styled.div`
+  display: flex;
 `;

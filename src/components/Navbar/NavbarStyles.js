@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 10;
   background: #171717;
@@ -28,7 +28,7 @@ export const NavbarContainer = styled.div`
   align-items: center;
   height: 80px;
   width: 100%; /* 100% of the max-width 1100px*/
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 0 20px;
 `;
 

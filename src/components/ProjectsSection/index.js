@@ -7,7 +7,8 @@ import {
   ProjectsWrapper,
   ProjectsSection,
   ProjectsH2,
-  ProjectsP,
+  // ProjectsSqaure,
+  ProjectsTitle,
 } from "../ProjectsSection/ProjectsStyles";
 
 export default function Projects() {
@@ -15,8 +16,10 @@ export default function Projects() {
     <>
       <ProjectsContainer id="projects">
         <ProjectsWrapper>
-          <ProjectsH2>Projects</ProjectsH2>
-          <ProjectsP>...</ProjectsP>
+          <ProjectsTitle>
+            {/* <ProjectsSqaure></ProjectsSqaure> */}
+            <ProjectsH2>Projects.</ProjectsH2>
+          </ProjectsTitle>
           <ProjectsSection>
             {projects.map((project, index) => {
               // console.log(projects);
