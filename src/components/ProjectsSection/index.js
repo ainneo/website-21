@@ -7,7 +7,7 @@ import {
   ProjectsWrapper,
   ProjectsSection,
   ProjectsH2,
-  ProjectsSqaure,
+  // ProjectsSqaure,
   ProjectsTitle,
 } from "../ProjectsSection/ProjectsStyles";
 
@@ -17,7 +17,7 @@ export default function Projects() {
       <ProjectsContainer id="projects">
         <ProjectsWrapper>
           <ProjectsTitle>
-            <ProjectsSqaure></ProjectsSqaure>
+            {/* <ProjectsSqaure></ProjectsSqaure> */}
             <ProjectsH2>Projects.</ProjectsH2>
           </ProjectsTitle>
           <ProjectsSection>

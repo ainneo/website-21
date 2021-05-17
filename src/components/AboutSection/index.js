@@ -3,7 +3,7 @@ import {
   AboutContainer,
   AboutWrapper,
   AboutContent,
-  AboutSqaure,
+  // AboutSqaure,
   AboutSqaureContent,
   AboutSqaureContentText,
   AboutH1,
@@ -17,7 +17,7 @@ export default function About() {
         <AboutWrapper>
           <AboutContent>
             <AboutSqaureContent>
-              <AboutSqaure></AboutSqaure>
+              {/* <AboutSqaure></AboutSqaure> */}
               <AboutSqaureContentText>
                 <AboutH1>Hello</AboutH1>
                 <AboutH1>I'm Ainne</AboutH1>

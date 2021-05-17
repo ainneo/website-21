@@ -61,12 +61,12 @@ function Contact() {
           left: "0",
         }}
       >
-        <div className="contact-section">
-          <div className="form-square"></div>
+        <div id="contact" className="contact-section">
+          {/* <div className="form-square"></div> */}
           <h2>Say Hello.</h2>
         </div>
 
-        <div id="contact" className="form-container">
+        <div className="form-container">
           <div className="form-wrapper">
             <div className="form-social-wrapper">
               <form className="form" onSubmit={handleOnSubmit}>

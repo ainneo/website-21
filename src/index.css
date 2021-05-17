@@ -3,3 +3,9 @@
   src: local("NeueHaasGroteskText-Bold"),
     url("./fonts/NeueHaasGroteskText-Bold.woff") format("truetype");
 }
+
+@font-face {
+  font-family: "NeueHaasGroteskText-Regular";
+  src: local("NeueHaasGroteskText-Regular"),
+    url("./fonts/NeueHaasGroteskText-Regular.woff") format("truetype");
+}

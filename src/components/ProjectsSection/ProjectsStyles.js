@@ -34,12 +34,12 @@ export const ProjectsH2 = styled.h2`
   }
 `;
 
-export const ProjectsSqaure = styled.div`
-  height: 30px;
-  width: 35px;
-  background-color: red;
-  margin-right: 10px;
-`;
+// export const ProjectsSqaure = styled.div`
+//   height: 30px;
+//   width: 35px;
+//   background-color: green;
+//   margin-right: 10px;
+// `;
 
 export const ProjectsTitle = styled.div`
   display: flex;

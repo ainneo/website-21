@@ -25,13 +25,13 @@ export const AboutContent = styled.div`
   }
 `;
 
-export const AboutSqaure = styled.div`
-  height: 115px;
-  width: 35px;
-  background-color: red;
-  margin-right: 10px
-  }
-`;
+// export const AboutSqaure = styled.div`
+//   height: 100px;
+//   width: 35px;
+//   background-color: green;
+//   margin-right: 10px;
+//   }
+// `;
 
 export const AboutSqaureContent = styled.div`
   display: flex;
@@ -46,7 +46,7 @@ display: block
 export const AboutH1 = styled.h1`
   margin-top: -6px;
   line-height: 50px;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1;
   letter-spacing: -0.0225em;
   @media screen and (max-width: 786px) {
