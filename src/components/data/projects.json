@@ -13,7 +13,7 @@
     {
         "title" : "Bitcoin News Feed",
         "image" : "images/bitcoinFeed.png",
-        "description" : "Accessed API and mapped into modular and responsive react componenets",
+        "description" : "Fetched data from API",
         "codeURL" : "",
         "liveURL" : "https://bitcoin-news.netlify.app/",
         "icon1": "icons/react.svg",
@@ -33,7 +33,7 @@
     {
         "title" : "Personal Website V2",
         "image" : "images/oldsite.png",
-        "description" : "Built without the use of frameworks or libraries",
+        "description" : "Built without use of frameworks or libraries",
         "codeURL" : "https://github.com/ainneo/cyberao",
         "liveURL" : "https://ainneo.github.io/cyberao/",
         "icon1": "icons/js.svg",

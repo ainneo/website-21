@@ -33,7 +33,7 @@ export const CardImage = styled.img`
 export const CardContent = styled.div`
   padding: 5px;
   width: 100%;
-  height: 125px;
+  height: 98px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -46,7 +46,8 @@ export const CardH3 = styled.h3`
 `;
 
 export const CardP = styled.p`
-  font-size: 15px;
+  margin-top: -10px;
+  font-size: 14px;
   color: rgba(92, 92, 92, 0.9);
   line-height: 15px;
 `;

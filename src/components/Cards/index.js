@@ -22,19 +22,21 @@ export default function Cards({ project }) {
       <CardContainer>
         <CardWrapper id="projects">
           <CardImg>
-            <CardImage src={project.image} alt="MIA" />
+            <a href={project.liveURL}>
+              <CardImage src={project.image} alt="MIA" />
+            </a>
           </CardImg>
           <CardContent>
             <CardH3>{project.title}</CardH3>
             <CardP>{project.description}</CardP>
 
             <CardFooterWrapper>
-              <CardCodeButton>
+              {/* <CardCodeButton>
                 <a href={project.codeURL}>SOURCE CODE</a>
-              </CardCodeButton>
+              </CardCodeButton> */}
               <CardFooter>
                 <CardLiveButton>
-                  <a href={project.liveURL}>PROJECT LIVE</a>
+                  <a href={project.codeURL}>SOURCE CODE</a>
                 </CardLiveButton>
                 <CardTechIcons>
                   <CardIcon>
