@@ -46,6 +46,6 @@ npm install @formspree/react
 
 For more info checkout: https://formspree.io/blog/react-forms-1/
 
-### Animated Gradient
+#### Animated Gradient
 
 https://www.gradient-animator.com/
