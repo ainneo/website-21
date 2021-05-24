@@ -49,5 +49,15 @@
         "icon1": "icons/sass.svg",
         "icon2": "icons/js.svg",
         "icon3": "icons/html.svg"
+    },
+    {
+        "title" : "Functional Hooks",
+        "image" : "images/funchook.png",
+        "description" : "Search, filter, load, and sort w/hooks",
+        "codeURL" : "https://github.com/ainneo/react-functional",
+        "liveURL" : "https://functionalhooks.netlify.app/",
+        "icon1": "icons/react.svg",
+        "icon2": "icons/js.svg",
+        "icon3": "icons/css.svg"
     }
 ]
