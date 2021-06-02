@@ -35,9 +35,12 @@ export default function Cards({ project }) {
                 <a href={project.codeURL}>SOURCE CODE</a>
               </CardCodeButton> */}
               <CardFooter>
-                <CardLiveButton>
-                  <a href={project.codeURL}>SOURCE CODE</a>
-                </CardLiveButton>
+                {project.codeURL ? (
+                  <CardLiveButton>
+                    <a href={project.codeURL}>SOURCE CODE</a>
+                  </CardLiveButton>
+                ) : null}
+
                 <CardTechIcons>
                   <CardIcon>
                     <img

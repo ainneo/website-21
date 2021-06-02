@@ -22,7 +22,6 @@ export default function Projects() {
           </ProjectsTitle>
           <ProjectsSection>
             {projects.map((project, index) => {
-              // console.log(projects);
               return <Cards project={project} key={index} />;
             })}
           </ProjectsSection>
