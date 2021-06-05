@@ -60,6 +60,16 @@
         "icon3": "icons/html.svg"
     },
     {
+        "title" : "Destiny",
+        "image" : "images/destiny.png",
+        "description" : "Built MVP React Pet App for Hackathon & won ",
+        "codeURL" : "https://github.com/ainneo/destiny-hackathon-deploy",
+        "liveURL" : "https://destiny-pets.netlify.app/",
+        "icon1": "icons/react.svg",
+        "icon2": "icons/js.svg",
+        "icon3": "icons/css.svg"
+    },
+    {
         "title" : "Free Code Camp San Francisco",
         "image" : "images/fcc.png",
         "description" : "Open Source Contributor",
