@@ -20,16 +20,6 @@
         "icon3": "icons/css.svg"
     },
     {
-        "title" : "Twinsy io",
-        "image" : "images/twin.png",
-        "description" : "Built a WordPress site for mobile and web",
-        "codeURL" : "",
-        "liveURL" : "https://twinsy.io/",
-        "icon1": "icons/html.svg",
-        "icon2": "icons/js.svg",
-        "icon3": "icons/css.svg"
-    },
-    {
         "title" : "Space Net",
         "image" : "images/spaceNet.png",
         "description" : "Built a Bootstrap & React Company website",
